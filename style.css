@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3E8E41;
+}
+
+ul {
+    list-style-type: none;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+li {
+    background-color: #e5e5e5; /* glass morphine */
+    color: black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
